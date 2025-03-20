@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Ticket Reservation - Booking</title>
+</head>
+<body>
+    <h1>Book Your Ticket</h1>
+    <form action="confirmation.html" method="get">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="event">Select Event:</label>
+        <select id="event" name="event" required>
+            <option value="Concert A">Concert A</option>
+            <option value="Movie B">Movie B</option>
+            <option value="Play C">Play C</option>
+        </select><br><br>
+
+        <label for="seats">Number of Seats:</label>
+        <input type="number" id="seats" name="seats" min="1" required><br><br>
+
+        <button type="submit">Confirm Booking</button>
+    </form>
+</body>
+</html>
