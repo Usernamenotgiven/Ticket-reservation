@@ -6,7 +6,7 @@ body {
     margin: 20px;
     padding: 0;
     color: #333;
-    align-items: center;
+    
 }
 
 h1, h2 {
@@ -42,6 +42,7 @@ form {
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     max-width: 400px;
+    margin: 0 auto;
 }
 
 label {
